@@ -1,10 +1,11 @@
-﻿using Entities.Abstract;
+﻿//core katmanı diğer katmanları referans almaz
+using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataAccess.Abstract
+namespace Core.DataAccess
 {
     // generic constraint
     //class: referans tip
